@@ -1,0 +1,3 @@
+O grud enviado nao está completo, nem está com a devida interface, ocorreu que o Jonas teve que viajar e acabou atrasando nossa dupla.
+Baixei o programa chamado wamp para a conexao php e conexão com o mysql, os arquivos enviados estão diretamente ligados a esse programa.
+Realizaremos as devidas alterações necessarias para completar a tarefa.
