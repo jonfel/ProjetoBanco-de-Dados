@@ -13,3 +13,19 @@ script:
 
 after_success:
   - codecov --token=b8caad07-f944-4e71-8577-978f7881efe6
+
+codecov:
+ notify:
+ require_ci_to_pass: yes
+coverage:
+ precision: 2
+ round: down
+ range: “70…100”
+status:
+ project: yes
+ patch: yes
+ changes: no
+comment:
+ layout: “reach, diff, flags, files, footer”
+ behavior: default
+ require_changes: no
