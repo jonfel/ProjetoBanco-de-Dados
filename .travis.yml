@@ -12,7 +12,6 @@ script:
   - coverage run tests.py
 
 after_success:
-  - codecov --token=b8caad07-f944-4e71-8577-978f7881efe6
   - bash < (curl -s https://codecov.io/bash)
 
 codecov:
